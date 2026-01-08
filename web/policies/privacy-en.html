@@ -8,110 +8,90 @@
 </head>
 <body>
   <h1>HelloTarot - Privacy Policy</h1>
-  <p class="updated">Last updated: December 2, 2025</p>
+  <p class="updated">
+    Last updated: January 8, 2026 · Version: v1 ·
+    <a href="./privacy-ko.html">한국어</a>
+  </p>
   <p>
-    "HelloTarot" (the "App") values your privacy and complies with applicable laws. This policy explains what
-    we collect, why we collect it, and how you can exercise your rights. By using the App, you agree to this policy.
+    HelloTarot (the “Service”) respects your privacy and complies with applicable laws.
+    This Policy explains what information we process and your rights.
   </p>
 
   <div class="section">
-    <h2>1. Information We Collect</h2>
+    <h2>1. Information We Process</h2>
     <ul>
-      <li><strong>Account:</strong> Email, nickname, auth provider (social/email), temporary reset tokens.</li>
-      <li><strong>Usage:</strong> Tarot questions/cards/interpretations, shared links, journal memos, feedback, usage limits, error/access logs.</li>
-      <li><strong>Basic access logs:</strong> Supabase infrastructure may log IP/header-level connection data for security/uptime. The app itself does not collect device details, app version, or crash reports via SDKs.</li>
-      <li><strong>Analytics/Ads IDs:</strong> We do not collect advertising/analytics IDs at this time (if enabled later, we will notify and obtain consent).</li>
-      <li><strong>Payments:</strong> Store receipts/order IDs, purchase tokens/product IDs/package name, and purchase status for verification/refund/dispute handling (we do NOT store card details).</li>
-      <li><strong>Notifications:</strong> We do not collect push tokens now (if push alerts are added later, we will request consent first).</li>
+      <li><strong>Account/Profile:</strong> Supabase user ID (UUID), sign-in method; email (if provided); display name; language preference.</li>
+      <li><strong>Device & Notifications:</strong> device identifier (e.g., device_id); FCM/APNs tokens and platform for push notifications.</li>
+      <li><strong>User-Generated Content:</strong> chat inputs and generated responses (may be stored per feature/operations policy); tarot results/history/journal notes; share tokens; bookmarks/entitlements.</li>
+      <li><strong>Payments (if available):</strong> store receipt identifiers (order ID, purchase token, product ID). We do not store card numbers.</li>
+      <li><strong>Operational Logs:</strong> security/error/event logs; infrastructure may generate basic access logs (IP/header level).</li>
+      <li><strong>Support/Feedback:</strong> inquiry email/message and minimal metadata (locale/platform/app version); optional attachments (e.g., screenshots).</li>
+      <li><strong>Advertising identifiers (if enabled):</strong> ad identifiers may be processed for ad delivery/measurement, subject to platform policies and consent requirements.</li>
     </ul>
   </div>
 
   <div class="section">
-    <h2>2. Purpose of Collection and Use</h2>
+    <h2>2. Purposes</h2>
     <ul>
-      <li><strong>Service:</strong> Tarot analysis, saving/viewing history, shared links.</li>
-      <li><strong>Safety/Fraud:</strong> Abuse prevention, rate limits, error/abuse investigation.</li>
-      <li><strong>Payments/Support:</strong> Purchase confirmation, refunds/CS via app stores.</li>
-      <li><strong>Personalization/Marketing:</strong> No marketing/push is operated now. If introduced, you can opt out in app/OS settings.</li>
-      <li><strong>Analytics/Performance:</strong> Reliability and quality improvement (internal logging only; no external ads/analytics SDKs).</li>
+      <li>Provide the Service (AI chat/tarot content, storage, sharing, content access).</li>
+      <li>Account management and support.</li>
+      <li>Notifications (push delivery and in-app inbox sync).</li>
+      <li>Security and abuse prevention.</li>
+      <li>Quality and performance improvements.</li>
+      <li>Advertising (if enabled), subject to applicable consent requirements.</li>
     </ul>
   </div>
 
   <div class="section">
-    <h2>3. Processors and International Transfers</h2>
-    <p>We may entrust processing to specialized partners and transfer data internationally to deliver the service. By using the App, you consent to this transfer.</p>
+    <h2>3. Processors & Cross-Border Transfers</h2>
+    <p>We may use trusted partners to operate the Service, which may involve international transfers.</p>
     <ul>
-      <li>Google LLC (US): AI tarot interpretation; analytics (if enabled).</li>
-      <li>Supabase Inc. (US): Database storage & account management.</li>
-      <li>Resend Inc. (US): In-app support email delivery.</li>
-      <li>Slack Technologies (US): Error monitoring (may include limited identifiers).</li>
-      <li>App stores/payment processors: Billing, receipts, refunds.</li>
+      <li>Supabase Inc. (US): authentication, database, edge functions.</li>
+      <li>Google (US): Firebase Cloud Messaging (push), Google Mobile Ads (if enabled), Google sign-in (if enabled).</li>
+      <li>Apple (US): APNs (push), Apple sign-in (if enabled).</li>
+      <li>Kakao (KR): Kakao sign-in/channel features (if enabled).</li>
+      <li>Resend (US): support email delivery.</li>
+      <li>Slack (US): operational monitoring/feedback (limited identifiers may be included).</li>
+      <li>App stores/payment processors: billing/subscriptions and refunds.</li>
+      <li>Cloud AI providers (if enabled): processing user inputs to generate responses.</li>
     </ul>
   </div>
 
   <div class="section">
-    <h2>4. Retention and Deletion</h2>
+    <h2>4. Retention & Deletion</h2>
     <p>
-      Data is kept while you use the service. You can delete your account anytime in “Settings &gt; Delete Account”;
-      related personal data is deleted immediately through cascade rules. Data required for law/accounting/fraud/dispute
-      (e.g., receipts/order IDs, abuse logs) is stored separately for the minimum legal period, then deleted. Tokens are
-      invalidated on deletion.
+      Data is retained while you use the Service and can be deleted via the in-app account deletion flow
+      (Settings &gt; Delete Account). Deletion is intended to be immediate via cascading deletes, subject to minimal
+      lawful/security retention. Backups may temporarily retain deleted data but are purged within a limited period
+      (e.g., within 30 days).
     </p>
   </div>
 
   <div class="section">
-    <h2>5. Your Rights and Contact</h2>
+    <h2>5. Your Rights & Contact</h2>
     <p>
-      You may request access/rectification/erasure/export/restriction, withdraw consent, or opt out of
-      marketing/push in app/OS settings. Contact: <a href="mailto:support@hellotarot.app">support@hellotarot.app</a>.
+      You may request access, correction, deletion, restriction, or withdrawal of consent where applicable by contacting:
+      <a href="mailto:support@hellotarot.app">support@hellotarot.app</a>
     </p>
   </div>
 
   <div class="section">
-    <h2>6. Legal Bases (GDPR)</h2>
+    <h2>6. Security</h2>
     <ul>
-      <li><strong>Contract:</strong> Providing the service (tarot interpretation/storage/sharing).</li>
-      <li><strong>Legitimate interests:</strong> Preventing spam/abuse, improving quality and performance, security logging.</li>
-      <li><strong>Legal obligation:</strong> Compliance with dispute/fraud handling, accounting/tax laws.</li>
-      <li><strong>Consent:</strong> Marketing/push/ads IDs are not run now; if introduced, we will notify and obtain consent first.</li>
+      <li>TLS in transit; secure handling of passwords/tokens.</li>
+      <li>Least-privilege access and auditing.</li>
+      <li>Operational alerts include limited identifiers only.</li>
     </ul>
   </div>
 
   <div class="section">
-    <h2>7. Security Measures</h2>
-    <ul>
-      <li>TLS in transit; passwords/tokens stored securely.</li>
-      <li>Principle of least privilege with access controls and audit logs.</li>
-      <li>Slack alerts carry limited error context only.</li>
-      <li>Vulnerability reports: <a href="mailto:support@hellotarot.app">support@hellotarot.app</a></li>
-    </ul>
+    <h2>7. Children</h2>
+    <p>The Service is not directed to children; minors may require guardian consent depending on local laws.</p>
   </div>
 
   <div class="section">
-    <h2>8. Retention</h2>
-    <ul>
-      <li><strong>Account/content:</strong> Kept while you use the service; cascade-deleted on account deletion.</li>
-      <li><strong>Error/abuse logs:</strong> Kept for the minimum period needed for dispute/security response.</li>
-      <li><strong>Payment records:</strong> Store billing receipts/orders related to your purchases are kept for legally required periods; we do not store card details.</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>9. Cookies/Identifiers</h2>
-    <ul>
-      <li>Ads IDs, push tokens, external ads/analytics SDKs: not in use now.</li>
-      <li>If added later, we will disclose purpose, retention, and opt-out and obtain consent.</li>
-    </ul>
-  </div>
-
-  <div class="section">
-    <h2>10. Children/Minors</h2>
-    <p>This service is not directed to children; minors require guardian consent per local law.</p>
-  </div>
-
-  <div class="section">
-    <h2>11. Changes</h2>
-    <p>Material changes will be announced in-app or by email; the last updated date is shown at the top.</p>
+    <h2>8. Updates</h2>
+    <p>Material changes will be notified in-app or via email, with the “last updated” date shown.</p>
   </div>
 
 </body>
